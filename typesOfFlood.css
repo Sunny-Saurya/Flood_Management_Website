@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.second{
+    height: 60vh;
+    width: 40vw;
+    background-color: rgb(87, 197, 214);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+div>img{
+    height: 60vh;
+    width: 100vw;
+}

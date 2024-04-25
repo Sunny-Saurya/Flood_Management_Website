@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    width: 100vw;
+    height: 50vh;
+}
+.para{
+    position: relative;
+    bottom: 350px;
+    font-size:24px;
+    color: #59390b;
+    text-shadow: 2px 2px 3px black;
+}
+.para>h1{
+    color:rgb(0, 0, 0);
+}
+.para1{
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.box>img{
+    height: 60vh;
+    width: 100vw;
+}
+.navigation {
+    background-color: #1e3b4b; /* Adjust background color as desired */
+    color: #fff; /* Adjust text color as desired */
+    padding: 20px 0;
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute elements evenly */
+  }
+  
+  .container {
+    width: 80%; /* Adjust container width as needed */
+    max-width: 1000px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex; /* Arrange elements within container */
+    align-items: center; /* Align elements vertically */
+  }
+  
+  .logo {
+    font-size: 2em; /* Adjust logo font size */
+    text-decoration: none; 
+    margin-right: 40px;
+    /* Remove underline from link */
+    color: #fff; /* Adjust logo text color */
+  }
+  
+  .nav-menu {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    display: inline-block; /* Display navigation items inline */
+    margin-right: 20px; /* Add spacing between items */
+  }
+  
+  .nav-menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Adjust link text color */
+    padding: 10px 15px; /* Add padding to links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .nav-menu a:hover {
+    background-color: #222; /* Adjust hover background color */
+  }
+  
+  .menu-toggle {
+    display: none; /* Initially hide the toggle button */
+  }
+  
+  /* Media Queries for Responsive Design (Adjust as needed) */
+  
+  @media (max-width: 768px) {
+    .navigation {
+      flex-direction: column; /* Stack elements vertically on small screens */
+    }
+  
+    .container {
+      width: 90%;
+    }
+  
+    .nav-menu {
+      text-align: center; /* Center navigation links on small screens */
+      margin-top: 20px; /* Add space after logo on small screens */
+    }
+  
+    .nav-menu li {
+      display: block; /* Display navigation items as blocks on small screens */
+      margin: 0 auto; /* Center navigation items on small screens */
+    }
+  
+    .menu-toggle {
+      display: block; /* Show toggle button on small screens */
+      font-size: 1.5em; /* Adjust toggle button font size */
+      cursor: pointer; /* Indicate clickable behavior */
+    }
+  }
+  .footer {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.3333%;
+    padding: 0 15px;
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .footer-links li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    color: #333;
+  }
+  
+  .footer-contact li {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-contact i {
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #e2e2e2;
+    color: #666;
+  }
+  
+
